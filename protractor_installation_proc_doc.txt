@@ -1,0 +1,986 @@
+IE Browser steup in ProUI tool
+https://leaptest.com/support/knowledgebase/configuration-of-ie-for-using-selenium-web-blocks
+========================================================
+document.getElementsByClassName('u-mr-- style-scope px-dropdown-content')[0]
+
+Installation of protractor tool      ============gpupdate /force========
+
+1. Place the project in below path for global.
+   Global Path:C:\Users\rmanchik\AppData\Roaming\npm
+
+2. Download node.js s/w and install in ur system(Check the version of Node.js--->node --version)
+   Use npm to install Protractor globally with:
+   npm install -g protractor
+
+3. Check the version of protractor and installed successfully 
+   protractor --version
+4. Use Selenium Server running to download the necessary binaries with:
+   webdriver-manager update 
+   Now start up a server with: 
+   webdriver-manager start
+see information about the status of the server at http://localhost:4444/wd/hub
+
+install jasmine HTML report using dongal
+5. open other nodejs cmmand promt and run the below cmd
+npm install protractor-jasmine2-html-reporter --save-dev
+
+Reference:
+npm install protractor-jasmine2-html-reporter --save-dev
+npm install protractor-html-screenshot-reporter --save-dev
+npm install protractor-jasmine2-screenshot-reporter --save-dev
+===================================================
+Using Allure reporter in jasmine
+
+https://www.npmjs.com/package/jasmine-allure-reporter
+============================================================ 
+
+6. place the all folder structure in below path
+C:\Users\rmanchik\AppData\Roaming\npm
+
+7. For running the script
+C:\Users\rmanchik\AppData\Roaming\npm> protractor conf.js
+==============================================
+Test Execution cmd 
+protractor conf.js --suite=smoke,regression   
+==============================================
+
+This is most likely not a problem with npm itself and is related to network connectivity.
+In most cases you are behind a proxy or have bad network settings
+===============================================
+
+http://stackoverflow.com/questions/22239207/use-protractor-to-test-login-on-non-angularjs-page
+==============================================================
+
+========================================================
+  Message:
+    Failed: Error while waiting for Protractor to sync with the page: "window.angular is undefined.  This could be either because this is
+a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://
+git.io/v4gXM for details"
+===================================================================================================
+=========================================================================================================
+//*[@id="scrollBodyTableContainer"]/div[2]/span[1]/input
+
+===================================================
+Using Allure reporter in jasmine
+
+https://www.npmjs.com/package/jasmine-allure-reporter
+============================================================
+Maven download
+https://maven.apache.org/download.cgi
+
+set env. variable
+
+================================================
+Below are the topics we are going to discuss in KT session.
+ 
+1. Basic overview of protractors 
+2. Pre-requisites and Installation process
+3. Different locators in protractors
+4. Synchronization concepts
+5. Creating and running Test suites
+6. Understanding the conf.js file
+7. Page object model frame work
+8. Jasmin introduction and Basic features
+9. Generating Allure reports
+10. Overview of the Maven installation and reports Mail sending 
+==================================================
+Protractor demo sites
+http://www.thetestroom.com/jswebapp/index.html
+https://juliemr.github.io/protractor-demo/
+=============================================================
+g49ik9.axshare.com/
+
+=============================
+scrum call details
+
+US conf number - 866 546 4138 - Passcode: 1607780 WebEx: sc.ge.com/*GauthamM
+=================================================================================
+501302518GE2014@work  105041693
+
+1.	What you did since last 6 months? 8341791071
+a. Productivity
+b. Quality
+2.	Any appr
+3.	Innovation/ value-add
+4.	Learning
+9854634............. 3,6,8,9,10,12
+
+M2_HOME
+C:\Users\rmanchik\AppData\Roaming\npm\apache-maven-3.3.9\bin
+
+mvn site -Dallure.results_pattern=allure-results
+3. Select the model id from the model list and Click on "Execute MR" under Escalation dashboard screen
+
+
+on delete popup window we are getting different model id and role names that is correct 
+those are the models mapped to pericular user
+ 
+While trying to delete an entry in technology page it showing an unnecessary pop up before confirmation popup.
+Please see the attached image for popup details.
+
+ 4617865500673762   314 5/2017
+105015069
+browser.waitForAngular();
+browser.manage().timeouts().pageLoadTimeout(10000);
+============================================
+https://github.com/jamieMason/jasmine-Matchers/
+==============================
+expect(array).toContain(member);
+expect(fn).toThrow(string);
+expect(fn).toThrowError(string);
+expect(instance).toBe(instance);
+expect(mixed).toBeDefined();
+expect(mixed).toBeFalsy();
+expect(mixed).toBeNull();
+expect(mixed).toBeTruthy();
+expect(mixed).toBeUndefined();
+expect(mixed).toEqual(mixed);
+expect(mixed).toMatch(pattern);
+expect(number).toBeCloseTo(number, decimalPlaces);
+expect(number).toBeGreaterThan(number);
+expect(number).toBeLessThan(number);
+expect(number).toBeNaN();
+expect(spy).toHaveBeenCalled();
+expect(spy).toHaveBeenCalledTimes(number);
+expect(spy).toHaveBeenCalledWith(...arguments);
+================================================
+//ul[@id='navitemlist']//li/a/span[text()='User Management'] 
+
+
+//div[@id='tabtitle'][text()='Model Mapping']
+ 
+//px-modal[@id='modalcnfrm']//div[@class='flex style-scope px-modal']/button[@id='Yes']
+
+//div[@ng-show='!postTechnology']
+//*[@id="add"]
+//div[@id='myUserDiv']//span[@class='menuActions']/i[@id="add"]
+
+//div[@class='tr rows striped style-scope aha-table']//input[@id='txtValue3']
+
+
+
+//div[@class='tr rows striped style-scope aha-table']//a[@id='editModelMapUserTooltip']
+//div[@class='tr tr--filter style-scope aha-table']//span/input[@class='text-input text-input--filter style-scope aha-table']
+//div[@class='modal__buttons flex flex--right style-scope px-modal']//button[text()='save']
+//*[@id="Save"]
+//aha-html-echo[@class='style-scope px-data-table-cell']/img[@id='deleteTooltip']
+//div[@class='scroll-body style-scope aha-table']//select[@id='drpUser1']
+
+//div[@id="scrollBodyTableContainer"]/div[2]/span[4]/input[@placeholder='Filter']
+//div[@id='scrollBodyTableContainer']/div[2]//span[@class='td style-scope aha-table']/input[@class='text-input text-input--filter style-scope aha-table']
+
+#scrollBodyTableContainer > div.tr.tr--filter.style-scope.aha-table > span:nth-child(7) > input
+
+1.	He is doing good in Next Gen escalation
+2.	Learned Protractor in quick time
+3.	He is doing both manual & automation testing
+4.	Providing support to other resources whenever required
+
+338608
+
+//section[@role='region']//i[@id='headericon'][text()='Role Selection']
+crew {{c.userInitial}}
+production   {{yesterdaysProduction}}
+todays plan production {{ productionEstimates.prePODEstimatedProduction}}
+
+//*[@id='headertext'][text()='Role Selection']
+
+#navitemlist > li:nth-child(3) > a > span
+#indexContainer > form:nth-child(1) > $ > div:nth-child(4) > select
+
+#navitemlist > li:nth-child(4) > a > span
+
+#indexContainer > form:nth-child(3) > div > div:nth-child(2) > span:nth-child(4) > span > ul > li:nth-child(1)
+
+//div[@class='frmFields']
+
+section[role='region'] px-tab[class='iron-selected'] div[text()='Define Scenario']
+
+//section[@role='region']//px-tab[@class='iron-selected']/div[text()='Define Portfolio']
+
+#indexContainer > form.ng-valid.ng-dirty.ng-valid-parse.ng-submitted > div.bc_in > div.formContainer.fC25 > div:nth-child(1) > select
+
+
+//*[@id="tabtitle"]  //px-tab-set[@id='demo-tab-set']//div[@id='tabtitle'][text()='View Only Dashboard']
+#tabPage2 > div > div > div:nth-child(4) > div.text--center > button
+
+
+477769   1089194
+
+//*[@id='crew_section_widget']/div[1]/div/span
+//*[@id='crew_section_widget']/div[1]/div/span
+"gpupdate /force"
+
+
+
+PATH:C:\ProgramData\Oracle\Java\javapath;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Sennheiser\SoftphoneSDK\;C:\WINDOWS\CCM;C:\WINDOWS\CCM;C:\WINDOWS\CCM;C:\WINDOWS\CCM;C:\WINDOWS\CCM;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm;%M2_HOME%\bin;%JAVA_HOME%\bin;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files\nodejs
+JAVA_HOME:C:\Program Files\Java\jdk1.8.0_121
+M2_HOME:C:\Users\rmanchik\AppData\Roaming\npm\apache-maven-3.3.9
+NODE_PATH:C:\Users\rmanchik\AppData\Roaming\npm\node_modules
+
+
+grunt noSuite --conf= C:\Users\rmanchik\Documents\dPOD_Automation\ProUI\Common_Template\Conf\protractor.cucumber.common.conf.js
+
+=========================================================grunt test --conf=C:/Users/rmanchik/git/ren-planning-proui/dPOD_Scenario/Conf/protractor.cucumber.conf-qa.js --suite=crewInPlan
+> npm config set proxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80
+> npm config set https-proxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80
+ 
+> npm uninstall protractor
+ 
+> npm uninstall cucumber
+ 
+> npm uninstall webdriver-manager (not sure if this is required. just include)
+ 
+> npm install -g protractor
+ 
+> npm install -g cucumber
+> npm install cucumber-html-reporter --save-dev
+ 
+> webdriver-manager update --ignore_ssl --proxy=http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80
+> webdriver-manager update --ie32 --proxy http://my-proxy:8080 --ignore_ssl
+ 
+Make sure that you have no another instance of the webdriver manager running in your local.
+ 
+> webdriver-manager start   
+Gitbash
+1. cd /C/Users/rmanchik/Documents/Automation/ren-planning-proui-business_Transactions
+2.  git clone git@github.build.ge.com:ren/ren-planning-proui.git
+
+3. git branch -a
+/C/Users/rmanchik/Documents/Automation/ren-planning-proui-business_Transactions/ren-planning-proui
+
+grunt test --conf=/opt/jenkins_build/workspace/REN/ren-planning-proui/dPOD_Scenario/Conf/protractor.cucumber.conf-qa.js --suite=crewInPlan
+grunt test --conf=/C/Users/rmanchik/Documents/Automation/ren-planning-proui-business_Transactions/ren-planning-proui/dPOD_PM_Scenario/Conf/QA/protractor.cucumber.personnelManagement.conf-qa-B2B.js --suite=personnelMgmt
+
+============================================== Colorado Highlands  South Hurlburt 66014444   Dr Shushanth 9989691223, 7893969604, 9866379409 Vinay kumar
+ProUI
+Installation Instructions   
+Should have Github account   
+
+Send your SSO to '@Research Automation Team' to provide an access to the repo
+
+Open new terminal and clone repo from GitHub to the local system
+
+git clone git@github.build.ge.com:MicroTester/ProUI.git
+Open IDE (WebStorm) and select File-> Open and navigate to cloned Project
+
+Run the commands below to install all the required dependencies:
+
+	npm install -g grunt --proxy=http://proxy-src.research.ge.com:8080
+	npm config set strict-ssl false   
+	npm install --only=dev --proxy=http://proxy-src.research.ge.com:8080
+Cd in your project directory.
+
+In order to run the default test built with this framework run:
+
+	grunt
+Run your test without suite name:
+	grunt noSuite --conf= <path of conf file>
+Run your test with a specific suite:
+	grunt test --conf= <path of conf file> --suite= <name of suite>
+Key Things to Note:
+Cucumber is no longer included by default as of version 3.0. You can integrate Cucumber with Protractor with the custom framework option.
+
+Change framework from “cucumber” to “custom” and add the new framework path
+
+Documentation: https://devcloud.swcoe.ge.com/devspace/display/KKQTL/ProUI
+==================================================================================================   
+
+grunt test --conf C:/Users/rmanchik/Documents/Automation/Conf/protractor.cucumber.conf.js --suite taskMgmt
+=========================================
+npm install -g grunt --proxy=http://proxy-src.research.ge.com:8080
+npm config set strict-ssl false   
+npm install --only=dev --proxy=http://proxy-src.research.ge.com:8080
+npm install grunt-execute --save-dev
+========================================================== No data for current date   //div[@id='crew_section_widget']/div[3]/div/div/div[1]  //*[@class='white-tooltip caps']
+======================================================================
+Excel upload functionality using proUI
+https://stackoverflow.com/questions/21305298/how-to-upload-file-in-angularjs-e2e-protractor-testing/21314337#21314337
+https://codoid.com/reading-excel-file-using-javascript/
+
+openFileSelector:function(){				
+				var fileToUpload = '../TestData/Oil-Sample-Test-Result-Template.xlsx',
+			        absolutePath = path.resolve(__dirname, fileToUpload);
+				 element(by.css('input[type="file"]')).sendKeys(absolutePath); 				 
+				 element(by.id('bulkSubmit')).click();	
+				 browser.sleep(2000);			 
+			},
+
+============================================
+openFileSelector:function(){
+                 //browser.waitForAngular(); 
+                 //browser.driver.sleep(4000);    				
+				 var fileToUpload = '../TestData/Task-Template.xlsm',
+			     absolutePath = path.resolve(__dirname, fileToUpload);
+				 element(by.css('input[type="file"]')).sendKeys(absolutePath);			 
+				 browser.sleep(3000);
+                 return cem.findElement(currentPage,'uploadExcelBtn').click();			 
+			    },
+
+this.Then(/^Verify user is able to upload the Excel sheet$/, function(callback) {
+          taskMgmtPage.openFileSelector().then(function () {
+                         callback();					
+		});   
+	});
+==============================================================================
+
+https://predix1.jenkins.build.ge.com/job/REN/view/Oil%20Lubrication%20Jobs/job/ren-olm-proui/ws/osd/step_definitions/bulk-upload-step-def.js
+=================================================================================
+
+https://github.com/protractor-cucumber-framework/protractor-cucumber-framework/issues/8
+
+this.Then(/^I see that the slider has moved/, function (done) {
+        browser.sleep(500).then(function () {
+            expect(sliderWidgetPage.getImageAndAttribute(0,'data-url')).to.eventually.equal('expectedValue').and.notify(done);
+        });
+    });
+
+=========================================================================================================
+editResolutionField
+waitForeditResolutionField: function() {
+				 browser.waitForAngular();
+                 browser.driver.sleep(4000);
+			     return TestHelper.isElementPresent(currentPage,'editResolutionField');
+                  },
+================================================== 
+//*[@class='modal__content u-p+ style-scope px-modal'][text()='Ok']
+
+
+Not possible to automate using ProUI, because in turbine widget trigular icon will have dynamic data and also to validate in reports page is difficult
+
+
+//div[@class='row ng-scope']/div[2]/div[2]/div[4]/div
+
+//div[label[text()='Description']]/textarea[@id='description']
+//div[label[text()='Parts Needed']]/textarea[@id='description']
+//div[label[text()='POD/ EOD Notes']]/textarea[@id='description']
+//div[label[text()='Tech Notes ']]/textarea[@id='description']
+
+//div[label[text()='Due']]//div[@class='inline--flex style-scope px-datetime-entry']//iron-icon[@id='icon']
+
+
+
+//div[label[text()='Due']]//div[@class='flex__item--middle today u-mb- style-scope px-datetime-picker']
+
+
+C://Users//Public//Pictures//Sample Pictures//Desert
+
+//*[@id="createTurbine"]/div/div[1]/div[3]/div/button[2]/span
+
+=================================================  Error: Could not create task
+var waitUntilReady = function (element) {  cem.findElement(currentPage,'selectFirstTurbine').click();
+  return browser.wait(function () {
+    return element.isPresent();
+  }, parseInt(browser.params.timeout)).then(function() {
+    return browser.wait(function () {
+      return element.isDisplayed();
+    }, parseInt(browser.params.timeout));
+  });
+}; 
+=====================================================
+WebDriverWait wait = new WebDriverWait(driver, 10); 
+WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("someid")));
+
+
+====================================================== 
+//div[@class='turbine_search']/button[text()='Unselect All']
+
+After changing the task status from pending to completed, The completed task details are not beeing reset(Actual Duration and Resolution Notes) 
+
+
+//div[label[text()='Completed']]//div[@class='flex__item--middle today u-mb- style-scope px-datetime-picker']
+//*[@id="content"]/table/tbody/tr[1]/td/section/div/div[2]/table/tbody/tr[1]/td[2]/div/div/div[2]/div[2]/plan-tab-content/div/div[1]/i
+
+
+//*[@id="displayDesc_2_178"]
+Add New/Existing Task
+
+(//div[div//li[@id="task-1"]//span/a[text()='Current Plan'] ]/div//button[text()='Add New/Existing Task'])[1]
+
+
+browser.actions().dragAndDrop(elem, target).perform();
+
+var elm = ptor.element(protractor.By.id(''));
+ptor.driver.actions().dragAndDrop(elm, targetelm )
+.mouseMove(elm).perform();
+
+
+browser.actions().dragAndDrop('element', 'source').mouseMove().perform();
+
+Any help would be greatly apprerciated. browser.actions().dragAndDrop('element','source').mouseMove().perform();
+================================
+color verification
+=========================================
+https://stackoverflow.com/questions/29252326/using-protractor-to-test-link-colours
+ 
+https://stackoverflow.com/questions/34614442/obtain-background-colour-using-protractor
+http://www.december.com/html/spec/colorrgbadec.html 
+
+
+
+#unassignedCrew1 > #crewSpan > center
+
+  //var dragFn = require('../PageObjects/drag.js');
+
+/*var field = element.all(by.xpath("(//*[@id='unassignedCrew1'])[1]"));
+            var src = element(by.css('#crewPopOver > span > center'));
+	this.Then(/^I should able to do drag and drop$/, function(callback) {
+           browser.executeScript(dragFn, currentPage,'field', currentPage,'src').then(function(){                            
+                                    callback();
+                                });
+                            }); */
+
+
+
+=======================================
+http://tst-crmintl.health.ge.com/emedical_enu
+999009606
+test123test
+
+449 2352
+===========================
+
+package dummy;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import java.util.concurrent.TimeUnit;
+
+//import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+public class dummy {
+
+	public static void main(String[] args)throws InterruptedException {
+	// TODO Auto-generated method stub
+	System.setProperty("webdriver.ie.driver", "C:\\Users\\ds839079\\Documents\\Userdata\\Test Data Automation\\IE Driver\\IEDriverServer.exe");
+
+	  // Initialize InternetExplorerDriver Instance.
+	DesiredCapabilities returnCapabilities = DesiredCapabilities.internetExplorer();
+	returnCapabilities.setCapability(InternetExplorerDriver.ENABLE_PERSISTENT_HOVERING, false);
+	WebDriver driver = new InternetExplorerDriver(returnCapabilities);
+	// WebDriver driver = new InternetExplorerDriver();
+
+driver.navigate().to("http://tst-crmintl.health.ge.com/emedical_enu");
+	String strPageTitle = driver.getTitle();
+	System.out.println("Page title: - "+strPageTitle);
+
+	WebElement username = driver.findElement(By.name("username"));
+	username.sendKeys("999009612");
+	WebElement passwd = driver.findElement(By.name("password"));
+	passwd.sendKeys("test123test");
+	driver.findElement(By.name("Submit")).click();
+	//driver.findElement(By.id("File")).click();
+	//driver.findElement(By.id("s_1_in2")).click();
+	//WebElement temp = driver.findElement(By.xpath("//input[contains(@src,'http://tst-crmintl.health.ge.com:10095/emedical_enu/images/icon_sitemap_1.gif')]"));
+	//WebElement temp = driver.findElement(By.cssSelector("a[src='http://tst-crmintl.health.ge.com:10095/emedical_enu/images/icon_sitemap_1.gif']"));
+	//temp.click();
+
+	Thread.sleep(3000); 
+
+
+http://toolsqa.com/selenium-webdriver/fire-ie-selenium-tool-ie-browser/
+
+System.out.println("application loaded");
+            WebElement frm1=driver.findElement(By.xpath("//frame[@name='_sweclient']"));
+     driver.switchTo().frame(frm1);
+     WebElement frm2=driver.findElement(By.xpath("//frame[@name='_sweviewbar']"));
+driver.switchTo().frame(frm2);
+System.out.println("Frame1 opened");
+
+driver.findElement(By.xpath("//img[@id='s_1_in2']")).click();
+//Thread.sleep(3000); 
+
+System.out.println("Sitemap opened");
+//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+WebElement frm3=driver.findElement(By.xpath("//frame[@name='_sweview']"));
+driver.switchTo().frame(frm3);
+WebElement frm4=driver.findElement(By.xpath("//frame[@name='_svf0']"));
+driver.switchTo().frame(frm4);
+driver.findElement(By.linkText("Assets")).click();
+}  
+}
+
+//div[@id='728_52_1010']/ul/li[4]
+//*[starts-with(@id,'crewName_854')]
+//*[@id="854_156_1005"]/ul/li[1]
+
+ 
+User is able to creating duplicate # tags for the same turbine
+
+As per US141332, Application Should not allow duplicate # tags for the same turbine
+
+//*[@class="text-input--bare style-scope px-datetime-entry-cell"][@placeholder="HH"]
+=====================================
+https://guide.blazemeter.com/hc/en-us
+Jmeter
+
+https://guide.blazemeter.com/hc/en-us/articles/206732579-Chrome-Extension
+https://guide.blazemeter.com/hc/en-us/articles/207420545-BlazeMeter-Recorder-Mobile-Recorder-?utm_source=BM&utm_medium=BM_blog&utm_campaign=jmeter-recording-file-uploads-blog#chrome
+
+Proxy setting in blaze meter
+https://guide.blazemeter.com/hc/en-us/articles/207420545-BlazeMeter-Recorder-Mobile-Recorder-?utm_source=BM&utm_medium=BM_blog&utm_campaign=jmeter-recording-file-uploads-blog#chrome
+===============================================
+https://predix1.jenkins.build.ge.com/job/REN/view/dPod%202.0%20QA/job/ProUI_dPOD_2.0_Automation
+
+https://predix1.jenkins.build.ge.com/job/REN/view/dPod%202.0%20QA/job/ProUI_dPOD_2.0_Automation/configure
+
+Experience in developing and maintaining the Automation test frameworks
+
+1088752
+http://gdc-igate.corporate.ge.com:8080/GDCIntranet/CNS_Forms/newReq.do
+==============================================
+
+//div[label[text()='Description']]/textarea[@id='description']
+=================================
+http://corp.setpac.ge.com/pac.pac
+80101   88688
+
+jmeter -n -t C:\Users\rmanchik\Desktop\apache-jmeter-3.2\apache-jmeter-3.2\scripts\HTTP(S) Test Script Recorder.jmx
+
+java -jar ApacheJMeter.jar -n -t TestScriptRecorder.jmx
+
+
+http://www.jmeter-archive.org/How-to-Run-Jmeter-in-command-line-td2640725.html
+
+jmeter -H proxy-src.research.ge.com -P 8080 US64121: [Continued] Task Creation - Create New Task - Site Manager
+
+https://preprod-apm.predix.com/gere-qa/plan/#/dashboard
+
+reg query "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" | find /i "proxyserver" 
+
+=========================================
+Gagan's Join WebEx meeting
+https://emeetings.webex.com/join/pr212598635 | 826 518 444 SSO Enabled Personal Room Join Link
+https://fss.gecompany.com/fss/idp/startSSO.ping?PartnerSpId=webex.com&TARGET=https://emeetings.webex.com/join/pr212598635 
+Join by phone 
+1-8665464138 Call-in toll-free number 
+Conference Code: 621 505 8 
+===============================================
+Jenkins  Execute shell
+=================================
+PROXY=http://sjc1intproxy01.crd.ge.com:8080
+#ROXY=http://proxy-src.research.ge.com:8080
+
+export JAVA_HOME=${JAVA_HOME_OPENJDK8}
+export PATH=${JAVA_HOME}/bin:${PATH}
+
+export http_proxy=$PROXY
+export https_proxy=$PROXY
+export HTTP_PROXY=$PROXY
+export HTTPS_PROXY=$PROXY
+
+#sudo npm config set https-proxy $PROXY
+#sudo npm config set http-proxy $PROXY
+#sudo npm config set strict-ssl false
+#sudo npm config set registry http://registry.npmjs.org/
+#sudo npm update -g npm
+sudo npm cache clean
+ 
+sudo npm install
+#sudo chown -R $(whoami) ~/.npm
+#sudo chown -R $(whoami) /usr/local/lib/node_modules
+
+
+#cd ./node_modules/grunt-protractor-runner/node_modules/protractor/bin
+cd ./node_modules/protractor/bin
+node webdriver-manager update --versions.chrome 2.28 
+
+cd ../../../
+
+sudo Xvfb :0 -ac -screen 0 1024x768x24 &
+
+export DISPLAY=:0
+
+grunt
+================================================
+https://predix1.jenkins.build.ge.com/job/REN/view/dPod%202.0/job/ren-planning-proui/ws/node_modules/protractor/config.json
+
+
+
+REN/ren-planning-proui/node_modules/protractor/selenium
+US65010: Task Editing - Warning on editing priority - Tenant Admin
+================================================
+var pkg = JavaImporter(org.openqa.selenium, org.openqa.selenium.support.ui)
+var support_ui = JavaImporter(org.openqa.selenium.support.ui.WebDriverWait)
+var wait = new support_ui.WebDriverWait(WDS.browser, 50)
+var conditions = org.openqa.selenium.support.ui.ExpectedConditions
+var exception = null
+
+
+
+
+WDS.sampleResult.sampleStart()
+
+try
+{
+wait.until(pkg.ExpectedConditions.elementToBeClickable(pkg.By.cssSelector('.flex.flex--middle.selectable-item.style-scope.px-context-browser')))
+var result = WDS.browser.findElement(pkg.By.cssSelector(".flex__item.item-label.style-scope.px-context-browser"));
+result.click();
+}
+catch(err){
+    WDS.log.error(err.message)
+    WDS.sampleResult.setSuccessful(false);
+    exception = err
+    WDS.sampleResult.setResponseMessage(err.message)
+}
+WDS.sampleResult.sampleEnd()
+=========================================
+npm install -g grunt --proxy=http://proxy-src.research.ge.com:8080
+npm config set strict-ssl false   
+npm install --only=dev --proxy=http://proxy-src.research.ge.com:8080
+npm install grunt-execute --save-dev
+==========================================================I should click on plan page link 
+
++==================================
+JMeter  https://archive.apache.org/dist/jmeter/source/ 
+=======================
+ https://stackoverflow.com/questions/32971546/how-to-wait-for-input-element-enabled-in-selenium-webdriver
+https://shantonusarker.blogspot.in/2015/01/debug-steps-in-jmeter-webdriver.html
+
+${__P(appurl,apmpreprod.apm.aws-usw02-pr.predix.io/gere-qa/plan/#/dashboard)}
+
+${__P(apmpreprod.apm.aws-usw02-pr.predix.io/ren-wind-dev/plan/#/dashboard)}
+
+https://apmpreprod.apm.aws-usw02-pr.predix.io/ren-wind-dev/plan/#/dashboard
+==============================================Jenkins Latest
+Label Expression section:-
+sjc1jenkins04||sjc1jenkins05||sjc1jenkins06||sjc1jenkins07||sjc1jenkins10
+===========================================================================
+
+PROXY=http://sjc1intproxy01.crd.ge.com:8080
+
+export JAVA_HOME=${JAVA_HOME_OPENJDK8}
+export PATH=${JAVA_HOME}/bin:${PATH}
+
+sudo npm config set proxy http://proxy-src.research.ge.com:8080
+sudo npm config set https-proxy http://proxy-src.research.ge.com:8080
+sudo npm config set registry http://registry.npmjs.org
+sudo npm config set strict-ssl false
+
+sudo npm cache clean 
+sudo npm install
+
+cd ./node_modules/protractor/bin
+node webdriver-manager update --versions.chrome 2.30
+
+cd ../../../
+
+export DISPLAY=:0
+
+sudo Xvfb :0 -ac -screen 0 1024x768x24 &
+
+grunt test --conf=/opt/jenkins_build/workspace/REN/ren-planning-proui/dPOD_Scenario/Conf/protractor.cucumber.conf-qa.js --suite=crewInPlan
+========================================
+PROXY=http://sjc1intproxy01.crd.ge.com:8080
+
+export JAVA_HOME=${JAVA_HOME_OPENJDK8}
+export PATH=${JAVA_HOME}/bin:${PATH}
+
+export http_proxy=$PROXY
+export https_proxy=$PROXY
+export HTTP_PROXY=$PROXY
+export HTTPS_PROXY=$PROXY
+
+sudo npm config set proxy http://proxy-src.research.ge.com:8080
+sudo npm config set https-proxy http://proxy-src.research.ge.com:8080
+sudo npm config set registry http://registry.npmjs.org
+sudo npm config set strict-ssl false
+
+sudo npm cache clean 
+sudo npm install
+
+cd ./node_modules/protractor/bin
+node webdriver-manager update --versions.chrome 2.30
+
+cd ../../../
+
+export DISPLAY=:0
+
+sudo Xvfb :0 -ac -screen 0 1024x768x24 &
+====================================================================================Fleet Excellance
+
+echo "Using protractor.conf.js from the local folder"
+echo $NODE_PATH
+echo $WORKSPACE
+
+PROXY=http://sjc1intproxy01.crd.ge.com:8080
+
+export JAVA_HOME=${JAVA_HOME_OPENJDK8}
+export PATH=${JAVA_HOME}/bin:${PATH}
+
+#export http_proxy=$PROXY
+#export https_proxy=$PROXY
+#export HTTP_PROXY=$PROXY
+#export HTTPS_PROXY=$PROXY
+
+sudo npm config set proxy http://proxy-src.research.ge.com:8080
+sudo npm config set https-proxy http://proxy-src.research.ge.com:8080
+sudo npm config set registry http://registry.npmjs.org
+sudo npm config set strict-ssl false
+
+#sudo npm config set https-proxy $PROXY
+#sudo npm config set http-proxy $PROXY
+#sudo npm config set strict-ssl false
+#sudo npm config set registry http://registry.npmjs.org/
+
+sudo npm cache clean 
+sudo npm install
+
+#sudo chown -R $(whoami) ~/.npm
+#sudo chown -R $(whoami) /usr/local/lib/node_modules
+#sudo -S true
+#cd ./node_modules/grunt-protractor-runner/node_modules/protractor/bin
+
+cd ./node_modules/protractor/bin
+node webdriver-manager update --versions.chrome 2.30
+
+cd ../../../
+
+#[ -z "$DISPLAY" ] && startx && {sleep 5; DISPLAY=0:0 setsid Guake; }
+
+export DISPLAY=:0
+
+sudo Xvfb :0 -ac -screen 0 1024x768x24 &
+===========================================================browser maxmized issue
+browser.manage().window().setSize(1400, 900);
+browserName: 'chrome',
+			chromeOptions : {
+				'args' : [ 'start-maximized' ]
+
+			},
+==================================================================
+
+when plan generation is in progress state, in crew section also getting nother spinner
+
+
+grunt test --conf C:/Users/rmanchik/Documents/Automation/Conf/protractor.cucumber.conf.js --suite taskMgmt
+
+
+
+
+
+DE53887, DE53889, DE53890, DE53892, DE53893, DE53896 
+
+DE54284
+I associate a turbine to a crew in the plan. Now the turbine would be visible in all the 3 reports. 
+Next I delete the crew by removing all technicians from the crew. This should have removed the turbine completely from the plan and report. 
+However the turbine and tasks were still available in the report
+
+DE53911, DE54284 fine, DE53953, DE53898, DE53891, DE53042 fine
+
+DE53953. However we were unable to test it as we did not have a turbine status change post the plan run
+DE53891 Headrer data
+
+
+I added a task and click on save button in work plan section, it is saving but conformation message showing as "unable to save the plan, please contact the support team"  
+
+Report page: Unwanted color displaying when come back from Recipient section to POD section
+
+In POD/EOD section clicked on Manage contacts and again clicked on Back button, while getting some unwanted color
+
+
+console.log("Here is the task status: " + completed);
+
+
+when we create a new task by selecting New task option in work plan, in Estimated task completion time section showing as "0null"
+
+The Turbine has already been added to the POD.  //*[@id='js-toast--6aea3']
+
+Asadpasad services, what are the 3rd party services are depend on dpod.
+designing page issue
+
+"MultipleCancelImage": {
+            "locatorType": "xpath",
+            "locatorValue": "(//*[@id='task-1']/span[3]/a[1])[2]"
+        },
+"MultipleRefreshImage": {
+            "locatorType": "xpath",
+            "locatorValue": "(//*[@id='task-1']/span[3]/a[2])[2]"
+        },
+"turbineRemoveWorkplan": {
+            "locatorType": "xpath",
+            "locatorValue": "(//*[@class='btn-remove float--right bgGrey u-mt-- u-mr0 u-pr-'])[2]"
+
+
+        },
+
+Many defects such as memory leaks, wrong passing of arguments, unreachable code, 
+lack of readability, high complexity and maintainability issues can be identified via
+code review. Finding defects at the coding stage, and fixing them there and then, 
+would prove to be less expensive than finding them in the testing stage
+
+502673527
+igate@111test
+
+US142612 ---sprint 5 q3 ---2 tcs
+
+US142611
+US137440
+US137442
+US127507
+
+In trying to add a changed turbine state in to the work plan, the Crew section is empty.
+
+
+
+Given Verify user is able to sort with Turbine display name
+      When Validating Turbine Display Name in turbine section, After sorting
+      Then Verify user is able to sort with Turbine name
+      Then Validating Turbine Number in turbine section, After sorting
+      Then Verify user is able to sort with Last visit date
+      Then Validating Last Visit Date in turbine section, After sorting
+      Then Verify user is able to sort with Next Maintenance task date
+      Then Validating Next Task Maintenance Date in turbine section, After sorting
+
+=============================================
+In work plan section Turbine details are disappearing and displaying like "Please try later" when creating a new task using work plan  
+
+Steps to Reproduce:-
+
+1. Click on "+" icon on work plan
+2. Select "New Task" radio button
+3. Click on Add and User will navigate into Add Task page
+4. Enter all the Mandatory fields and Click on "Add" button followed by "OK" button
+5. User will navigate into plan page
+6. Verify in Work plan section getting that "Please try later" measage
+
+AC: As a dPOD user, the Newly created task should be added in work plan to the turbine against the corresponding crew
+
+
+I think the widget is enabled in the front end and disabled in the back end code
+that is the issue
+
+"siteGroupDropdwn": {
+            "locatorType": "xpath",
+            "locatorValue": "//*[@id='selectContext']/div[2]/h1/iron-icon"
+        },
+        "siteGroupSelect": {
+            "locatorType": "xpath",
+            "locatorValue": "//*[@class='flex__item item-label style-scope px-context-browser'][text()='Colorado Highlands']"
+
+===================================
+element(by.className('your-class-name')).isDisplayed().then(function (isVisible) {
+    if (isVisible) {
+        // element is visible
+    } else {
+        // element is not visible
+    }
+});
+
+
+
+Start owning defects. PM should be catching zero defects in preprod and production. 
+1. Developer should first be owning and testing the functionality. 
+2. Peer review should catch any missed bugs
+3. QA should then catch any missed bugs
+4. Finally TPM should catch any missed bugs
+
+PM should not find ANY bugs in preprod or production
+
+Need to plan for UI stories properly before starting of sprint, so that sprint planning can be imporved
+
+Please provide detailed description of the each User story so that I can cover the Test cases for all the Functionality
+
+Executed Blazemeter PT scripts on QA with 50 concurrent users 
+Not getting sufficient time to do end to end testing by involving different activites like Functional and Performance testing
+Implementing to read values(Site Group) from .csv file in Jmeter
+
+
+Steps to reproduce:-
+1. Create more than 8 crews
+2. Click on Right arrow in work plan 
+3. Add a existing task to last crew
+4. Click on Previous date arrow
+
+No data for current date
+
+502673527
+
+igate@111test
+
+We are created duplicate defects and User story for same functionality
+It is time consuming to track the duplicated ones
+Example:-
+DE66995, DE69237 --Duplicate crews are creating in work plan section
+US232210, US230873 and US237101----Report page Layout change : PDF Changes
+
+ Developed proUI script for a "Save" prompt, when any changes to the Reports page upon navigating to another tab in the application.
+=======================================================================
+@Digital EngSS Tools FTE <EngSSToolsFTE@ge.com>
+========================================
+
+List<WebElement> allElements = driver.findElements(By.xpath("//div[@id='...']/ul/li")); 
+
+for (WebElement element: allElements) {
+      System.out.println(element.getText());
+}
+List<WebElement> allElements = driver.findElements(By.xpath("//div[@id='...']/ul/li"));
+int s=allElements.size();
+for(int i=1;i<=s;i++){
+    allElements = driver.findElements(By.xpath("//div[@id='...']/ul/li"));
+    allElements.get:i.click();
+}
+}
+====================================DE74295, DE77306 site task, DE77915, DE76480, 
+1. eScada & Pulsepoint Alphanumeric turbine serial number fix
+2. Site Task Enablement
+3. Skip Integration failures and resume Plan run
+
+Just give me a call once you have a time
+
+sjc1jenkins03||sjc1jenkins04||sjc1jenkins05||sjc1jenkins07||sjc1jenkins10||sjc1jenkins06
+
+element(by.model('user.username').sendkeys('abc@gmail.com'));
+    element(by.model('user.password').sendkeys('abc123'));
+
+element(by.model('user.username')).sendKeys('abc@gmail.com');
+element(by.model('user.password')).sendKeys('abc123');
+========================================================================
+    this.Then(/^I verify if Turbine checkbox is checked$/, function (callback) {
+                element.all(by.className('u-mr-- style-scope px-dropdown-content')).get(1).isSelected().then(function(selected){
+                    if (selected){
+                        console.log("Turbine checkbox is checked");
+                        assert.isTrue(selected, 'Turbine checkbox is not getting checked');
+                    } else {
+                        console.log("Turbine checkbox is unchecked");
+                        assert.isFalse(selected, 'Turbine checkbox is not getting unselected');
+                    }
+                    callback();
+
+                });
+ ========================================================================================== Conference ID: 5040073
+Today I worked on US269903, Updated few more negative testing scenarios for Pulse point integration
+
+
+*/business_Transactions
+grunt test --conf=/opt/jenkins_build/workspace/REN/ren-planning-proui/dPOD_PM_Scenario/Conf/protractor.cucumber.personnelManagement.conf-qa.js --suite=personnelMgmt
+
+------------------------------------
+"South Hurlburt" site name is not displaying in Site group dropdown and also checked in Assets section there also it is not displaying properly.
+Instead of "South Hurlburt" it showing as "South Hurlburt,check", Please find the attched screenshots for Assets and dPOD applications
+
+
+turbineSortLastvisit
+DE68949
+
+grunt test --conf=C:/Users/rmanchik/Documents/PM_Automation/dPOD_PM_Scenario/Conf/protractor.cucumber.businessTransactions.conf-qa.js --suite=turbineCount
+
+DE80030) 
+LL- Fail -Scenario previously mentioned and documented is still failing (Completed Task A for Turbine 1 by Crew X, reassigned turbine 1 to Crew Y and completed Task B. Task A crew changed from Crew X to Crew Y. Expected behavior: historical information should never change! Once a task is completed, crew should be maintained
+
+
+
+C:\Users\Public\Documents\apache-jmeter-binaries_4.0\apache-jmeter-binaries_4.0\apache-jmeter-binaries_4.0\bin
+
+=========================================================
+Preprod- https://phppgadmin-ren-preprod.run.aws-usw02-pr.ice.predix.io/ 
+QA -https://phpgadmin-gere-qa.run.aws-usw02-pr.ice.predix.io/ 
+
+https://devcloud.swcoe.ge.com/devspace/pages/viewpage.action?pageId=1320452778
+
+ I have observed couple of issues in Turbine page, 
+1. After completion of the task in Flat Ridge site and checking Turbine history in Turbine page by selecting last visit option
+I found that "2017 Low Wind Maintenance" task title is displaying without task for all the turbines
+2.Turbine page Sorting is not working in SH site

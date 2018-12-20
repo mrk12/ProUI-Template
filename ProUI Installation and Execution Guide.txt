@@ -1,0 +1,58 @@
+set path=C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Git\bin;C:\Program Files\nodejs;C:\Users\rmanchik\AppData\Roaming\npm;C:\Users\rmanchik\Documents\Softwares\apache-maven-3.0.4\bin;C:\Users\rmanchik\AppData\Roaming\npm\node_modules\grunt\bin;C:\Users\rmanchik\AppData\Roaming\npm\node_modules\bower\bin;C:\Users\rmanchik\AppData\Roaming\npm\node_modules\cucumber\bin;C:\Users\rmanchik\AppData\Roaming\npm\node_modules\gulp\bin;C:\Users\rmanchik\AppData\Roaming\npm\node_modules\protractor\bin;C:\Windows\System32;
+
+npm config set proxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80
+npm config set https-proxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80
+npm install -g protractor
+npm install -g cucumber
+npm install cucumber-html-reporter --save-dev
+npm install grunt --proxy=http://proxy-src.research.ge.com:8080
+npm config set strict-ssl false   
+npm install --only=dev --proxy=http://proxy-src.research.ge.com:8080
+npm install grunt-execute --save-dev
+
+npm install grunt-contrib-jshint --save-dev
+npm install grunt-protractor-runner --save-dev
+npm install grunt-shell-spawn --save-dev
+npm install protractor-cucumber-framework --save-dev
+npm install protractor-html-screenshot-reporter --save-dev
+
+protractor --version
+
+** We must start selinum server in npm path
+
+webdriver-manager update --ignore_ssl --proxy=http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80
+
+webdriver-manager start
+
+SET Path=%Path%;C:\Users\rmanchik\AppData\Roaming\npm
+set Path=%path%;C:\Program Files\nodejs;C:\Users\rmanchik\AppData\Roaming\npm\
+
+gpupdate /force
+
+
+If HTMl report is not getting generated for logs, then check for the protractor version.. protractor version must be 3.3.0 ->(npm install -g protractor --version3.3.0)
+
+npm config set proxy http://proxy-src.research.ge.com:8080
+npm config set https-proxy http://proxy-src.research.ge.com:8080
+npm config set registry http://registry.npmjs.org
+npm config set strict-ssl false 
+set http_proxy=http://sjc1intproxy01.crd.ge.com:8080 
+set https_proxy=http://sjc1intproxy01.crd.ge.com:8080 
+set HTTP_PROXY=http://sjc1intproxy01.crd.ge.com:8080 
+set HTTPS_PROXY=http://sjc1intproxy01.crd.ge.com:8080 
+set no_proxy=api.grc-apps.svc.ice.ge.com,login.grc-apps.svc.ice.ge.com,loggregator.grc-apps.svc.ice.ge.com,uaa.grc-apps.svc.ice.ge.com,console.grc-apps.svc.ice.ge.com,$no_proxy
+
+
+Reference for Protractor functions: https://www.protractortest.org/#/api?view=webdriver.WebElement.prototype.getAttribute
+
+#################################################################################
+For creating new automation script:
+element-repo.json -> add element attribute/location (html code)
+po file -> action need to do for the element (wirte action function here. can have multiple functions for single automation)
+spec file -> use po function what needs to do(call the function created in po file)
+feature file -> specify the steps to do. (need to be in correct order)
+#################################################################################
+
+503043420 / Priya@123ge -> preprod
+
+Confluence Doc.. https://devcloud.swcoe.ge.com/devspace/pages/viewpage.action?spaceKey=KKQTL&title=ProUI
